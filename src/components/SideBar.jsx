@@ -17,12 +17,10 @@ const SideBar = () => {
   );
 };
 
-const SideBarIcon = ({ icon, text = 'tooltip 💡', link }) => (
+const SideBarIcon = ({ icon, text, link }) => (
   <Link to={link} className="sidebar-icon group">
     {icon}
-    <span className="sidebar-tooltip group-hover:scale-100">
-      {text}
-    </span>
+    <span className="sidebar-tooltip group-hover:scale-100">{text}</span>
   </Link>
 );
 
