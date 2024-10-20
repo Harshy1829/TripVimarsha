@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SideBar from './components/SideBar';
-import Dashboard from './components/Dashboard'; // Dummy component, create if needed
-import MyTrips from './components/MyTrips'; // Dummy component, create if needed
-import TravelPartners from './components/TravelPartners'; // Dummy component, create if needed
-import CostSplit from './components/CostSplit'; // Dummy component, create if needed
-import Settings from './components/Settings'; // Dummy component, create if needed
+import Dashboard from './components/Dashboard';
+import MyTrips from './components/MyTrips';
+import TravelPartners from './components/TravelPartners';
+import CostSplit from './components/CostSplit';
+import Settings from './components/Settings';
 
 const App = () => {
   return (
